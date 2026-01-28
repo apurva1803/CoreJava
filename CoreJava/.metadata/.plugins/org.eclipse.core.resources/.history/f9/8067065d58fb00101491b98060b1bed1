@@ -1,0 +1,29 @@
+package in.co.rays.overriding;
+
+public class Shape {
+	
+	protected String colour;
+	protected int borderWidth;
+	
+	public String getColour() {
+		return colour;
+	}
+	
+	public void setColour(String colour) {
+		this.colour = colour;
+	}
+	
+	public int getBorderWidth() {
+		return borderWidth;
+	}
+	
+	public void setBorderWidth(int borderWidth) {
+		this.borderWidth = borderWidth;
+	}
+	
+	public void area()
+	{
+		System.out.println("Area from Parent Class...");
+	}
+
+}

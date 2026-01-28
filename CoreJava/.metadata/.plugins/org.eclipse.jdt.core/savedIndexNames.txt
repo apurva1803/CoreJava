@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/Users/apurvaraut/Desktop/CoreJava/.metadata/.plugins/org.eclipse.jdt.core
+1476108112.index
+1865797976.index
+1658900393.index
+1118410495.index

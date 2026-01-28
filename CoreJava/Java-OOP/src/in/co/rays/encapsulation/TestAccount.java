@@ -1,0 +1,39 @@
+package in.co.rays.encapsulation;
+
+public class TestAccount {
+
+	public static void main(String[] args) {
+		
+		Account a1 = new Account();
+		a1.setNumber("23456789");
+		a1.setAccType("Saving Account");
+		a1.setBalance(3000.0);
+		
+		System.out.println(a1.getNumber());
+		System.out.println(a1.getAccType());
+		System.out.println(a1.getBalance());
+		
+		a1.deposit(3000.0);
+		a1.withdraw(1000);
+		
+		System.out.println(a1.getBalance());
+		
+		
+		System.out.println("......................");
+		
+		Account a2 = new Account();
+		a2.setNumber("11234567");
+		a2.setAccType("Saving Account");
+		a2.setBalance(2000.0);
+		
+		System.out.println(a2.getNumber());
+		System.out.println(a2.getAccType());
+		System.out.println(a2.getBalance());
+		
+		a2.deposit(2000.0);
+		a2.withdraw(1000);
+		
+		System.out.println(a2.getBalance());
+		
+	}
+}

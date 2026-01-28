@@ -1,0 +1,68 @@
+package in.co.rays.encapsulation;
+
+public class Account {
+
+	private String accNumber;
+	private String accType;
+	private double balance;
+	
+	public void setNumber(String accNumber)
+	{
+		this.accNumber = accNumber;
+	}
+	
+	public String getNumber()
+	{
+		return this.accNumber;
+	}
+	
+	public void setAccType(String accType)
+	{
+		this.accType = accType;
+	}
+	
+	public String getAccType()
+	{
+		return this.accType;
+	}
+	
+	public void setBalance(double balance)
+	{
+		this.balance = balance;
+	}
+	
+	public double getBalance()
+	{
+		return this.balance;
+	}
+	
+	public void deposit(double amt)
+	{
+		this.balance = this.balance + amt;
+		
+		System.out.println("Balance after Deposit: "+this.balance);
+	}
+	
+	public void withdraw(double amt)
+	{
+		if(amt>this.balance)
+		{
+			System.out.println("Insufficient Balance");
+		}
+		else
+		{
+			this.balance = this.balance - amt;
+			System.out.println("Balance after Withrawal: "+this.balance);
+		}
+	}
+	
+	public void fundTransfer(double amt)
+	{
+			
+		this.balance = this.balance - amt;
+		
+		System.out.println("Balance after FundTransfer: "+this.balance);
+	
+	}
+	
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="in.co.rays.polymorphism.AxisBank"/>
+    <fullyQualifiedTypeName name="in.co.rays.polymorphism.HdfcBank"/>
+    <fullyQualifiedTypeName name="in.co.rays.polymorphism.IciciBank"/>
+    <fullyQualifiedTypeName name="in.co.rays.polymorphism.Bank"/>
+    <fullyQualifiedTypeName name="in.co.rays.constructor.Account"/>
+</qualifiedTypeNameHistroy>
