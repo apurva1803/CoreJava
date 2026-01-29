@@ -21,19 +21,17 @@ public class TestShapeByMethodArgument {
 		t.setBase(4);
 		t.setHeight(4);
 
-		for (int i = 0; i < s.length; i++) {
-			s[i].area();
-		
-			double totalArea = calcArea(s); // call calcArea() method and pass s argument it will return total area
-			System.out.println(totalArea);
-		}
+	
+		double totalArea = calcArea(s); // call calcArea() method and pass s argument it will return total area
+		System.out.println(totalArea);
 	}
 	
 		
 	private static double calcArea(Shape[] s) {
 			double totalArea = 0.0;
 			
-			for (int i = 0; i < s.length; i++) {
+			for (int i = 0; i < s.length; i++) 
+			{
 				System.out.println("area: " + s[i].area());
 				totalArea = totalArea + s[i].area();
 			}

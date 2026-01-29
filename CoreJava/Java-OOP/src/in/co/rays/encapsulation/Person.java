@@ -1,6 +1,5 @@
 package in.co.rays.encapsulation;
 
-import java.time.LocalDate;
 import java.util.Date;
 
 public class Person {

@@ -2,7 +2,8 @@ package in.co.rays.overriding;
 
 public class TestShape {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		// parents can keep child's reference
 		Shape s1 = new Circle();
 		

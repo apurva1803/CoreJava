@@ -1,6 +1,6 @@
 package in.co.rays.polymorphism;
 
-public class TestPolymorphismByArray {
+public class TestShapePolymorphismByArray {
 	public static void main(String[] args) {
 		
 		Shape[] s = new Shape[3];
@@ -21,7 +21,7 @@ public class TestPolymorphismByArray {
 		t.setHeight(4);
 
 		for (int i = 0; i < s.length; i++) {
-			s[i].area();
+			System.out.println(s[i].area());
 		}
 	}
 }
