@@ -2,7 +2,7 @@ package in.co.rays.exception;
 
 
 //compile Time
-public class CheckedPrapogation {
+public class CheckedPropagation {
 
 	public static void main(String[] args) 
 	{

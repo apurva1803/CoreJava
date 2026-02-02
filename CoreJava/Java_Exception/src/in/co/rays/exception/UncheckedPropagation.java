@@ -1,6 +1,6 @@
 package in.co.rays.exception;
 
-public class UncheckedPrapogation {
+public class UncheckedPropagation {
 	public static void main(String[] args) 
 	{
 		dad();
