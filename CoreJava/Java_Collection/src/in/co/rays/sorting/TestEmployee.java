@@ -13,7 +13,7 @@ public class TestEmployee
 		Employee e4 = new Employee(4, "Saket", 45333);
 		Employee e5 = new Employee(5, "Shruti", 52000);
 		
-		ArrayList list = new ArrayList();
+		ArrayList<Employee> list = new ArrayList<Employee>();
 		
 		list.add(e1);
 		list.add(e2);
@@ -32,7 +32,7 @@ public class TestEmployee
 		
 		System.out.println("--------");
 		
-		Iterator it = list.iterator();
+		Iterator<Employee> it = list.iterator();
 		
 		while(it.hasNext()) {
 			Object o = it.next();

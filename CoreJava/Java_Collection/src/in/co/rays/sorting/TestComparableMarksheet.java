@@ -3,18 +3,18 @@ package in.co.rays.sorting;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class TestMarksheet 
-{
+public class TestComparableMarksheet {
+	
 	public static void main(String[] args) {
 		
-		Marksheet m1 = new Marksheet("101","Ramesh", 45);
+		ArrayList<Marksheet> list = new ArrayList<Marksheet>();
+		
+		Marksheet m1 = new Marksheet("106","Ramesh", 45);
 		Marksheet m2 = new Marksheet("102", "Shyam", 78);
 		Marksheet m3 = new Marksheet("106", "Kamal", 88);
 		Marksheet m4 = new Marksheet("103", "Aman", 69);
 		Marksheet m5 = new Marksheet("104", "Pawan", 35);
-		Marksheet m6 = new Marksheet("105", "Rakesh", 55);
-		
-		ArrayList<Marksheet> list = new ArrayList<Marksheet>();	
+		Marksheet m6 = new Marksheet("101", "Rakesh", 55);
 		
 		list.add(m1);
 		list.add(m2);
@@ -22,21 +22,17 @@ public class TestMarksheet
 		list.add(m4);
 		list.add(m5);
 		list.add(m6);
-
-		System.out.println(list);
 		
-		System.out.println("--------");
+		System.out.println("---------Marksheet---------");
 		
-		Collections.sort(list);
+		list.forEach(System.out::println);
 		
-		for(Object o : list)
-		{
-			System.out.println(o);
-		}
 		
-		System.out.println("--------");
+		System.out.println("--------sorted marksheet------");
 		
-		System.out.println(list);
-	
+		Collections.sort(list); // use comparable interface
+		
+		list.forEach(System.out::println);
 	}
+
 }
