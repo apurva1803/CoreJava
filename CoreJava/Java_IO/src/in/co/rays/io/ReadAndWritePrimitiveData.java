@@ -9,7 +9,7 @@ import java.io.IOException;
 public class ReadAndWritePrimitiveData {
 	public static void main(String[] args) throws IOException {
 
-		DataOutputStream out = new DataOutputStream(new FileOutputStream("/Users/apurvaraut/Desktop/CoreJava/Primitive.txt"));
+		DataOutputStream out = new DataOutputStream(new FileOutputStream("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/Primitive.txt"));
 
 		out.writeInt(1);
 		out.writeBoolean(false);
@@ -20,7 +20,7 @@ public class ReadAndWritePrimitiveData {
 
 		System.out.println("data added......");
 
-		DataInputStream in = new DataInputStream(new FileInputStream("/Users/apurvaraut/Desktop/CoreJava/Primitive.txt"));
+		DataInputStream in = new DataInputStream(new FileInputStream("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/Primitive.txt"));
 
 		System.out.println(in.readInt());
 		System.out.println(in.readBoolean());

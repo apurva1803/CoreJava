@@ -9,7 +9,7 @@ import java.io.FileWriter;
 public class Test {
 	public static void main(String[] args) throws Exception {
 
-		File file = new File("/Users/apurvaraut/Desktop/CoreJava/TestSplit.txt");
+		File file = new File("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/TestSplit.txt");
 		BufferedReader fileToCount = new BufferedReader(new FileReader(file));
 
 		int count = 0;

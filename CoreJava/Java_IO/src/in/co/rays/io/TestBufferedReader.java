@@ -6,7 +6,7 @@ import java.io.FileReader;
 public class TestBufferedReader {
 	public static void main(String[] args) throws Exception {
 
-		BufferedReader file = new BufferedReader(new FileReader("/Users/apurvaraut/Desktop/CoreJava/Hello.java"));
+		BufferedReader file = new BufferedReader(new FileReader("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/Hello.java"));
 
 		String line = file.readLine();
 

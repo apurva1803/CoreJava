@@ -5,7 +5,7 @@ import java.io.FileWriter;
 public class WriteTextFile {
 	public static void main(String[] args) throws Exception {
 
-		FileWriter file = new FileWriter("/Users/apurvaraut/Desktop/CoreJava/HelloRays.txt", true);
+		FileWriter file = new FileWriter("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/HelloRays.txt", true);
 
 		file.write(" Hello Rays");
 

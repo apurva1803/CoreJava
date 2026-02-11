@@ -12,7 +12,7 @@ public class TestEmployeeExternalizable
 
 		Employee e = new Employee(1, "Ram");
 
-		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("/Users/apurvaraut/Desktop/CoreJava/Employee.txt"));
+		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/Employee.txt"));
 
 		out.writeObject(e);
 
@@ -20,7 +20,7 @@ public class TestEmployeeExternalizable
 
 		System.out.println("object serialized successfully");
 
-		ObjectInputStream in = new ObjectInputStream(new FileInputStream("/Users/apurvaraut/Desktop/CoreJava/Employee.txt"));
+		ObjectInputStream in = new ObjectInputStream(new FileInputStream("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/Employee.txt"));
 
 		System.out.println(in.readObject());
 

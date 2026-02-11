@@ -8,7 +8,7 @@ public class ReadTextFile
 	public static void main(String[] args) throws IOException {
 		
 		// read single character only as int
-			FileReader file = new FileReader("/Users/apurvaraut/Desktop/CoreJava/Hello.txt");
+			FileReader file = new FileReader("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/Hello.txt");
 			
 			int i = file.read();
 			

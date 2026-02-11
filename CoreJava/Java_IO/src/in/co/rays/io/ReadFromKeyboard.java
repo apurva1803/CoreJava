@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 public class ReadFromKeyboard {
 	public static void main(String[] args) throws Exception {
 
-		PrintWriter out = new PrintWriter(new FileWriter("/Users/apurvaraut/Desktop/CoreJava/temp.txt"));
+		PrintWriter out = new PrintWriter(new FileWriter("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/temp.txt"));
 
 		System.out.println("start writing your text here....");
 

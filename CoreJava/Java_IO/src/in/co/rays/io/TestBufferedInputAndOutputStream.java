@@ -9,9 +9,9 @@ import java.io.IOException;
 public class TestBufferedInputAndOutputStream {
 	public static void main(String[] args) throws IOException {
 
-		String source = "/Users/apurvaraut/Desktop/CoreJava/krishna.png";
+		String source = "/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/krishna.png";
 
-		String target = "/Users/apurvaraut/Desktop/CoreJava/krishna2.png";
+		String target = "/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/krishna2.png";
 
 		BufferedInputStream in = new BufferedInputStream(new FileInputStream(source));
 

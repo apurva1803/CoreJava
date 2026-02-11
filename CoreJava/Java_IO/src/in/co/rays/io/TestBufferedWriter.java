@@ -6,7 +6,7 @@ import java.io.FileWriter;
 public class TestBufferedWriter {
 	public static void main(String[] args) throws Exception {
 
-		BufferedWriter file = new BufferedWriter(new FileWriter("/Users/apurvaraut/Desktop/CoreJava/Hello.java"));
+		BufferedWriter file = new BufferedWriter(new FileWriter("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/Hello.java"));
 
 		file.write("public class Hello {");
 		file.newLine();

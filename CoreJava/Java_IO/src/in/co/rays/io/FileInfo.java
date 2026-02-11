@@ -6,7 +6,7 @@ import java.util.Date;
 public class FileInfo {
 	public static void main(String[] args) {
 
-		File file = new File("/Users/apurvaraut/Desktop/CoreJava/Hello.txt"); // file open
+		File file = new File("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/Hello.txt"); // file open
 
 		if (file.exists()) {
 			System.out.println("file name: " + file.getName());

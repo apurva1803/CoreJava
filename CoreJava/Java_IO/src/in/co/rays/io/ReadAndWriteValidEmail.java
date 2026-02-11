@@ -8,8 +8,8 @@ import java.io.FileWriter;
 public class ReadAndWriteValidEmail {
 	public static void main(String[] args) throws Exception {
 
-		FileReader source = new FileReader("/Users/apurvaraut/Desktop/CoreJava/email.txt");
-		FileWriter target = new FileWriter("/Users/apurvaraut/Desktop/CoreJava/validEmail.txt");
+		FileReader source = new FileReader("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/email.txt");
+		FileWriter target = new FileWriter("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/validEmail.txt");
 
 		BufferedReader br = new BufferedReader(source);
 		BufferedWriter bw = new BufferedWriter(target);

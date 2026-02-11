@@ -13,7 +13,7 @@ public class TestAccountSerializable
 
 		Account a = new Account("8877744485888", 45660.01);
 
-		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("/Users/apurvaraut/Desktop/CoreJava/Account.txt"));
+		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/Account.txt"));
 
 		// Convert Account class object into byte stream: serialization
 		out.writeObject(a);
@@ -21,7 +21,7 @@ public class TestAccountSerializable
 		out.close();
 		System.out.println("object serialized successfully");
 
-		ObjectInputStream in = new ObjectInputStream(new FileInputStream("/Users/apurvaraut/Desktop/CoreJava/Account.txt"));
+		ObjectInputStream in = new ObjectInputStream(new FileInputStream("/Users/apurvaraut/Desktop/CoreJava/IOTextFiles/Account.txt"));
 
 		// Convert byte stream into Account class object: deserialization
 		System.out.println(in.readObject());
